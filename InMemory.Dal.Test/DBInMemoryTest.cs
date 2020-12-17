@@ -16,7 +16,6 @@ namespace InMemory.Dal.Test
                new DbContextOptionsBuilder<SchoolContext>()
                    .UseInMemoryDatabase(databaseName: "TestDatabase")
                    .Options;
-
         private StudentRepository _studentRepository;
         private TeacherRepository _teacherRepository;
 

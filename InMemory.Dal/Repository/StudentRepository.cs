@@ -27,6 +27,7 @@ namespace InMemory.Dal.Repository
             }
             catch (Exception ex)
             {
+                    Console.WriteLine(ex.Message);
                 return null;
             }
         }
